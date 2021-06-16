@@ -1,0 +1,634 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    background: white;
+    color: #403a3a;
+}
+
+li {
+    list-style: none;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #403a3a;
+}
+
+
+/* menu */
+
+#menu>a {
+    width: 20%;
+}
+
+#menu ul {
+    list-style: none;
+    display: block;
+    width: 80%;
+    height: 5vw;
+    overflow: hidden;
+}
+
+#menu ul li {
+    flex-grow: 1;
+}
+
+#menu img {
+    padding-left: 20px;
+    width: 60%;
+}
+
+#menu a {
+    float: left;
+}
+
+#menu li {
+    float: left;
+    padding-left: 1%;
+}
+
+#menu ul {
+    display: flex;
+}
+
+#menu li a {
+    line-height: 5vw;
+}
+
+.fl a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+.fl a:hover {
+    text-decoration: underline;
+}
+
+#main {
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 40px;
+    padding-top: 10%;
+}
+
+.p1 {
+    padding-top: 100px;
+}
+
+header p {
+    font-size: 24px;
+    padding-top: 46px;
+    line-height: 14px;
+}
+
+header img {
+    padding-top: 10%;
+    padding-bottom: 5%;
+    width: 4%;
+}
+
+
+/* about */
+
+h2 {
+    padding-top: 10%;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10%;
+}
+
+#about img {
+    width: 34%;
+    padding: 0 10% 5% 0;
+    float: left;
+}
+
+#about p {
+    padding: 0 0 5% 10%;
+    font-size: 16px;
+    line-height: 32px;
+}
+#about{
+    padding: 0 10% 5% 10%;
+}
+#my1 p {
+    padding: 10%;
+    width: 50%;
+}
+
+#my1 img {
+    float: right;
+    padding-top: 10%;
+}
+
+#my2 img {
+    float: left;
+}
+
+
+/* skills */
+
+#skills {
+    margin-top: 10%;
+    color: white;
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#s {
+    float: left;
+    padding-left: 10%;
+}
+
+#s p {
+    font-size: 18px;
+    padding-bottom: 12%;
+}
+
+#line ul {
+    list-style: none;
+    padding-left: 60%;
+    padding-bottom: 9%;
+}
+
+
+/* line */
+
+#line .line {
+    width: 50%;
+    background: #fff;
+    height: 1.5em;
+    border-radius: 15px;
+    margin-bottom: 52px;
+}
+
+#line .line .progress {
+    display: block;
+    border-radius: 15px;
+    height: 1.5em;
+}
+
+.line {
+    margin-bottom: 40px;
+}
+
+#line .line:nth-child(1) .progress {
+    background: #ffa0a0;
+    width: 80%;
+}
+
+#line .line:nth-child(2) .progress {
+    background: #86c6f4;
+    width: 90%;
+}
+
+#line .line:nth-child(3) .progress {
+    background: #ffe4a0;
+    width: 60%;
+}
+
+#line .line:nth-child(4) .progress {
+    background: #ffa0a0;
+    width: 50%;
+}
+
+#line .line:nth-child(5) .progress {
+    background: #b3ffa0;
+    width: 70%;
+}
+
+#line .line:nth-child(6) .progress {
+    background: #aca0ff;
+    width: 60%;
+}
+
+#line .line:nth-child(7) .progress {
+    background: #a0ffc1;
+    width: 70%;
+}
+
+#line .line:nth-child(8) .progress {
+    background: #ffe4a0;
+    width: 80%;
+}
+
+.hide {
+    display: none !important;
+}
+
+
+/* projects */
+
+h3 {
+    font-size: 24px;
+    padding-bottom: 2%;
+}
+
+h4 {
+    font-size: 20px;
+    padding-bottom: 2%;
+}
+
+h5 {
+    font-size: 18px;
+    padding-bottom: 14px;
+}
+
+#projects p {
+    font-size: 16px;
+    line-height: 32px;
+    padding-bottom: 2%;
+}
+
+#projects .img1 {
+    width: 30%;
+    padding-left: 10%;
+    padding-right: 10%;
+    float: left;
+    padding-bottom: 4%;
+}
+
+#ani {
+    padding: 0 10%;
+}
+
+#ani .conbox .img2 {
+    padding-bottom: 10%;
+}
+
+#projects .img2 {
+    padding-bottom: 2%;
+    width: 35%;
+}
+
+#myDIV2 {
+    padding: 10%;
+    padding-top: 2%;
+}
+
+#myDIV2 .line {
+    text-align: center;
+}
+
+#myDIV2 .expo {
+    padding-top: 10%;
+}
+
+.expo img {
+    float: right;
+    padding-left: 10%;
+    padding-bottom: 10%;
+}
+
+#myDIV2 .pro {
+    padding: 10% 0;
+}
+
+#myDIV2 .pa {
+    padding: 10% 0;
+}
+
+#myDIV2 .pa img {
+    float: left;
+    padding-right: 10%;
+    width: 30%;
+}
+
+#myDIV2 .pa p {
+    padding-bottom: 80px;
+}
+
+#myDIV2 button{
+    float: right;
+}
+
+
+
+#myDIV2 .pb {
+    padding: 5% 0;
+}
+
+#myDIV2 .pb img {
+    width: 100%;
+}
+
+#myDIV2 .pc {
+    padding: 10% 0;
+}
+
+#myDIV2 .pc p {
+    padding: 5% 0;
+}
+
+#myDIV2 .pc img {
+    width: 100%;
+}
+
+#myDIV2 .jour {
+    padding: 10% 0;
+}
+
+#myDIV2 .jour p {
+    padding-bottom: 5%;
+}
+
+#myDIV2 .port {
+    padding: 10% 0;
+}
+
+.port div {
+    padding-top: 5%;
+}
+
+.port .h,
+.port .a,
+.port .s,
+.port .p,
+.port .c {
+    width: 50%;
+    float: left;
+}
+
+#myDIV2 .cour {
+    padding: 10% 0;
+}
+
+#myDIV2 .cour .i {
+    padding-left: 5%;
+}
+
+.line1 {
+    text-align: center;
+    padding-top: 2%;
+}
+
+#hi {
+    margin: 10% 10% 0 10%;
+}
+
+#hi .img {
+    float: left;
+    padding: 0 20% 10% 10%;
+}
+
+#hi p {
+    padding-bottom: 3%;
+}
+
+.hi img {
+    padding-bottom: 10%;
+    width: 35%;
+}
+
+.line2 {
+    text-align: center;
+    padding-top: 4%;
+}
+
+#catch {
+    padding: 10%;
+}
+
+#catch .img {
+    float: left;
+    padding: 0 10% 0 0;
+    width: 40%;
+}
+
+#catch p {
+    padding-bottom: 2%;
+}
+
+#tomato {
+    padding: 10% 10% 20% 10%;
+}
+
+#tomato .img {
+    float: left;
+    padding: 0 10% 0 0;
+    width: 40%;
+}
+
+#tomato p {
+    padding-bottom: 2%;
+}
+
+.tomato img {
+    padding-bottom: 5%;
+    width: 35%;
+}
+
+#myDIV3 {
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+
+/* contact */
+
+#contact {
+    background-image: url(image/bg.png);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    color: white;
+}
+
+#contact p {
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+#contact .p1 {
+    font-size: 24px;
+    padding: 10px;
+}
+
+#contact div .img1,
+#contact div .img2,
+#contact div .img3 {
+    padding-right: 5%;
+}
+
+#contact div {
+    padding: 5% 0 10% 0;
+}
+
+#contact a {
+    text-decoration: none;
+    color: white;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+button {
+    width: 300px;
+    height: 60px;
+    font-size: 14px;
+    color: #403a3a;
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #999999;
+}
+
+.fn-clear {
+    overflow: hidden;
+}
+
+.btnbox {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.btns {
+    width: 49%;
+    padding: 0 30px;
+    box-sizing: border-box;
+    height: 60px;
+    font-size: 14px;
+    color: #403a3a;
+    cursor: pointer;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    border: 1px solid #999999;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.btns:hover{
+    background-color: #403a3a;
+    color: white;
+}
+
+button:hover {
+    background-color: #403a3a;
+    color: white;
+}
+
+#myDIV1,
+#myDIV2,
+#myDIV3 {
+    display: none;
+}
+
+footer {
+    background:#403a3a;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width:1255px) {
+    #button1 {
+        margin-left: 10%;
+    }
+}
+
+
+
+@media screen and (max-width:960px) {
+    #projects .img2 {
+        width: 60%;
+        margin: auto;
+        display: block;
+        padding: 10% 0;
+    }
+    .hi img,.conbox img {
+        padding: 10% 0;
+        width:60%;
+        display: block;
+        margin: auto;
+    }
+    .h1 .conbox{
+        width: 32%;
+    }
+    .hi .btnbox.center a{
+        display: block;
+        margin: auto;
+    }
+}
+@media screen and (max-width:800px) {
+    button {
+        width: 40%;
+    }
+    #menu li a {
+        font-size: 14px;
+    }
+    .catch img{
+        padding-bottom: 3%;
+        width: 100%;
+    }
+    #projects .img2 {
+        width: 100%;
+        margin: auto;
+        display: block;
+    }
+    .tomato img {
+        padding-bottom: 5%;
+        width: 100%;
+    }
+
+    .btnbox.center .btns{
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
+    .hi .conbox img{
+        width: 100%;
+    }
+}
+@media screen and (min-width:960px) {
+    .btnbox,.conbox{
+        width: 35%;
+        float: right;
+    }
+    .btnbox.center .btns{
+        margin: auto;
+        display: block;
+        width: 100%;
+    }
+    .btnbox,.conbox img{
+        width: 100%;
+        
+    }
+    .conbox img{
+        padding-bottom: 10%;
+    }
+    #projects .img2{
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width:1255px) {
+    .port .h,
+    .port .a,
+    .port .s,
+    .port .p,
+    .port .c {
+        width: 100%;
+    };
+}
